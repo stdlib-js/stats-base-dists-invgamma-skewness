@@ -69,7 +69,7 @@ when `α > 3`. Otherwise, the skewness is not defined.
 ## Usage
 
 ```javascript
-import skewness from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-invgamma-skewness@esm/index.mjs';
+import skewness from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-invgamma-skewness@v0.3.0-esm/index.mjs';
 ```
 
 #### skewness( alpha, beta )
@@ -143,7 +143,7 @@ v = skewness( 1.0, -1.0 );
 import EPS from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-eps@esm/index.mjs';
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import skewness from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-invgamma-skewness@esm/index.mjs';
+import skewness from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-invgamma-skewness@v0.3.0-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
